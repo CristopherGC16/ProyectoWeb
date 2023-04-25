@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/stilo.css" /> 
+  <style>
+    button{
+      background-color:#4040ff ;
+    }
+  </style>
+</head>
+<body background="images/Fondo.jpg">
+<div class="login-box">
+  <img src="images/Logo1.jpg" class="avatar" alt="Avatar Image">
+  <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Login del Sistema</h1>
+  <form style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;" action="validate.php" method="POST">
+    <!-- USERNAME INPUT -->
+    <label for="username">Usuario</label>
+    <input type="text"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;" name="username" placeholder="Ingrese su usuario">
+    <!-- PASSWORD INPUT -->
+    <label style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;" for="password">Contraseña</label>
+    <input style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;" type="password" name="password" placeholder="Ingrese su contraseña">
+    <input type="submit"  name="submit" value="Ingresar">
+    <h5 style="color: rgb(146, 146, 146); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" >Si no posee una cuenta, contacte con el administrador</h5>
+
+  </form>
+</div>
+</body>
+</html>
